@@ -1,7 +1,6 @@
 
 /* Let's create a Database */
 CREATE DATABASE Customer;
-DROP TABLE Info;
 
 /* Creating a tables */
 /* Table 1*/
@@ -102,5 +101,3 @@ Answe: We will use AVG() function. */
 
 SELECT AVG(Income) as Average_Income FROM Income
 WHERE WorkType != 'Employee';
-
-/* Part 3 - 
