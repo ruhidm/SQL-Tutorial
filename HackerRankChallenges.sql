@@ -18,3 +18,7 @@ SELECT NAME FROM CITY WHERE COUNTRYCODE ='USA' AND POPULATION > 120000
 
 /* CHALLENGE 3 */
 
+/* Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.*/
+
+SELECT * FROM CITY WHERE COUNTRYCODE = 'JPN';
+
